@@ -1,4 +1,4 @@
-# Project-S.E
+# Project - Software Engineering
 # 🎮 Soldier Shooter Game
 
 A browser-based 2D action shooter game built using **HTML, CSS, and JavaScript**.  
