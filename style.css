@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial;
+  background: black;
+}
+
+canvas {
+  display: block;
+  background: url('file:///D:/Git Demo/1 SHOWS/bg.png') no-repeat center;
+  background-size: cover;
+}
+
+/* UI */
+.ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #00f7ff;
+}
+
+.hp-bar {
+  width: 200px;
+  height: 20px;
+  border: 2px solid cyan;
+  box-shadow: 0 0 10px cyan;
+  margin-bottom: 10px;
+}
+
+#hpFill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, lime, green);
+  box-shadow: 0 0 10px lime;
+}
+
+.info {
+  font-size: 18px;
+}
