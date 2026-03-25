@@ -1,17 +1,16 @@
 body {
   margin: 0;
   overflow: hidden;
-  font-family: Arial;
   background: black;
+  font-family: Arial;
 }
 
 canvas {
   display: block;
-  background: url('file:///D:/Git Demo/1 SHOWS/bg.png') no-repeat center;
+  background: url('bg.png') no-repeat center;
   background-size: cover;
 }
 
-/* UI */
 .ui {
   position: absolute;
   top: 10px;
@@ -20,10 +19,10 @@ canvas {
 }
 
 .hp-bar {
-  width: 200px;
-  height: 20px;
+  width: 220px;
+  height: 22px;
   border: 2px solid cyan;
-  box-shadow: 0 0 10px cyan;
+  box-shadow: 0 0 15px cyan;
   margin-bottom: 10px;
 }
 
@@ -31,7 +30,8 @@ canvas {
   height: 100%;
   width: 100%;
   background: linear-gradient(90deg, lime, green);
-  box-shadow: 0 0 10px lime;
+  box-shadow: 0 0 15px lime;
+  transition: width 0.2s;
 }
 
 .info {
